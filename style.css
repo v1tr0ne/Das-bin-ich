@@ -1,0 +1,38 @@
+body {
+    background-color: #f7f7f7;
+    font-family: arial, sans-serif;
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto ;
+    width: 90%;
+    max-width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+img {
+    border-radius: 25px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    height: 40px;
+    width: 200px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+button:hover {
+    background-color: #555;
+    color: #fff;
+}
